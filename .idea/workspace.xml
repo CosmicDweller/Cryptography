@@ -4,15 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d07868-b646-46da-af60-6f39a0dec5e2" name="Changes" comment="" />
+    <list default="true" id="98d07868-b646-46da-af60-6f39a0dec5e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Euclids_Algorithm/extended_euclid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polynomial_interpolation/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polynomial_interpolation/poly_interpolate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polynomial_interpolation/shamir_secret_sharing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polynomial_interpolation/shamir_secret_sharing_site/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polynomial_interpolation/shamir_secret_sharing_site/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polynomial_interpolation/shamir_secret_sharing_site/templates/decrypt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polynomial_interpolation/shamir_secret_sharing_site/templates/generate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Summer_Assignments/ciphertext.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Summer_Assignments/ciphertext.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CosmicDweller&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CosmicDweller/Cryptography.git&quot;,
+    &quot;accountId&quot;: &quot;6592a454-3666-457a-b2b0-534148c53618&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -23,6 +55,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.base.html.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.diophantine_solution.executor": "Run",
+    "Python.extended_euclid.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.poly_interpolate.executor": "Run",
+    "Python.scratch_5.executor": "Run",
+    "Python.shamir_secret_sharing.executor": "Run",
     "Python.vigenere.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -34,8 +75,18 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Summer_Assignments" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,7 +106,20 @@
       <workItem from="1723668382833" duration="38000" />
       <workItem from="1723746022503" duration="1809000" />
       <workItem from="1724097728804" duration="2072000" />
-      <workItem from="1724109352686" duration="61000" />
+      <workItem from="1724109352686" duration="1326000" />
+      <workItem from="1724178593346" duration="918000" />
+      <workItem from="1724442848144" duration="3988000" />
+      <workItem from="1724457029671" duration="9043000" />
+      <workItem from="1724602997915" duration="9141000" />
+      <workItem from="1724763653371" duration="72000" />
+      <workItem from="1724777230687" duration="385000" />
+      <workItem from="1724783423645" duration="212000" />
+      <workItem from="1724784554046" duration="837000" />
+      <workItem from="1724786617577" duration="11901000" />
+      <workItem from="1724955612002" duration="48000" />
+      <workItem from="1724956572119" duration="16135000" />
+      <workItem from="1725384227353" duration="841000" />
+      <workItem from="1725394757006" duration="15891000" />
     </task>
     <servers />
   </component>
@@ -74,6 +138,13 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cryptography$scratch_5.coverage" NAME="scratch_5 Coverage Results" MODIFIED="1725214606404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/Cryptography$gui.coverage" NAME="gui Coverage Results" MODIFIED="1725394797812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polynomial_interpolation" />
+    <SUITE FILE_PATH="coverage/Cryptography$app.coverage" NAME="app Coverage Results" MODIFIED="1725215967562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polynomial_interpolation/shamir_secret_sharing_site" />
+    <SUITE FILE_PATH="coverage/Cryptography$poly_interpolate.coverage" NAME="poly_interpolate Coverage Results" MODIFIED="1725214850934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polynomial_interpolation" />
+    <SUITE FILE_PATH="coverage/Cryptography$extended_euclid.coverage" NAME="extended_euclid Coverage Results" MODIFIED="1725558407547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euclids_Algorithm" />
+    <SUITE FILE_PATH="coverage/Cryptography$diophantine_solution.coverage" NAME="diophantine_solution Coverage Results" MODIFIED="1725556514377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Euclids_Algorithm" />
     <SUITE FILE_PATH="coverage/Cryptography$vigenere.coverage" NAME="vigenere Coverage Results" MODIFIED="1724097918657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Cryptography$shamir_secret_sharing.coverage" NAME="shamir_secret_sharing Coverage Results" MODIFIED="1724955330211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polynomial_interpolation" />
   </component>
 </project>
