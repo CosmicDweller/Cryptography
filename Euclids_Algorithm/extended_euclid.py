@@ -23,3 +23,4 @@ result = extended_gcd(a, b)
 
 print(f"Solution: ({a} * {result[0][0]}) + ({b} * {result[0][1]}) =  {result[1]}")
 print(f"Where {result[1]} is the gcd of {a} and {b}")
+
