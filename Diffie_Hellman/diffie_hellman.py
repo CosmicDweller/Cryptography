@@ -1,8 +1,9 @@
 import random
 import sys
-sys.path.insert(1, '/Users/kvberry/Cryptography')
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from ..Modular_Exponentiation.mod_exponentiate import mod_exponentiate
 
-from  Modular_Exponentiation.mod_exponentiate import mod_exponentiate
 # n is the order of the cyclic group G which we are working in
 n = 124924729789241929438904
 # n = int(input("provide a large number on preferably of the order 2^2000: "))

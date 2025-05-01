@@ -15,7 +15,7 @@ class S5:
         return S5(inverse)
 
     @staticmethod
-    def composition(b, a):
+    def composition(a, b):
         composition = np.ones(5).astype(int)
         for i in range(5):
             composition[i] = b.permutation[a.permutation[i] - 1]
@@ -71,7 +71,8 @@ class S5:
         return self.inverse()
 
     def __str__(self):
-        return str(self.permutation)
+        return str(self.cycles())
+        # return str(self.permutation)
 
     __repr__ = __str__
 
@@ -104,7 +105,7 @@ c = S5([3, 1, 4, 2, 5])
 #
 # finds phi s.t. phi*g*phi^-1 = h
 phi=S5.find_conjugator(g, h)
-# print(phi, phi*(g*(~phi)), h)
+print(phi, (~phi)*(g*(phi)), h)
 
 # print(g(h(1)), (g*h)(1))
 # print(g(h(2)), (g*h)(2))
